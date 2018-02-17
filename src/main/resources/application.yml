@@ -1,6 +1,9 @@
 spring:
   application:
     name: my-book-review-service
+  zipkin:
+    base-url: http://localhost:7882/
+    
 
 eureka:
   client:
